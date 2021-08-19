@@ -387,6 +387,7 @@
     <Compile Include="Loader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="Utils\PrivateAccess.cs" />
     <Compile Include="Utils\Render.cs" />
   </ItemGroup>
   <ItemGroup>
