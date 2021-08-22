@@ -19,5 +19,10 @@ namespace ShitStain.Modules
             base.onEnable();
             DebugConsole.Write("Works!");
         }
+
+        public override void onRender()
+        {
+            Render.DrawString(new UnityEngine.Vector2(0, 0), "Test works!", false);
+        }
     }
 }
