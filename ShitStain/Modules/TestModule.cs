@@ -1,6 +1,6 @@
-﻿using System;
-using ShitStain.Other;
+﻿using ShitStain.Other;
 using ShitStain.Utils;
+using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +22,7 @@ namespace ShitStain.Modules
 
         public override void onRender()
         {
-            Render.DrawString(new UnityEngine.Vector2(0, 0), "Test works!", false);
+            Render.DrawString(new Vector2(0, 0), "Test works!", false);
         }
     }
 }
