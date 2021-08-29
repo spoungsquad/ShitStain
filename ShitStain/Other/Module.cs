@@ -1,4 +1,6 @@
-﻿using ShitStain.Utils;
+﻿using ShitStain.Other.Settings;
+using ShitStain.Utils;
+using System.Collections.Generic;
 
 namespace ShitStain.Other
 {
@@ -9,6 +11,8 @@ namespace ShitStain.Other
         public string description;
         public bool enabled = false;
 
+        // settings
+        public List<ModuleSetting> settings = new List<ModuleSetting>();
 
         // for arraylist
         public bool animating = false;
@@ -36,5 +40,11 @@ namespace ShitStain.Other
         public virtual void onRender() { }
 
         public virtual void forever() { }
+
+        public virtual void registerSetting(ModuleSetting setting)
+        {
+            settings.Add(setting);
+            DebugConsole.Write("Registered setting: " + setting);
+        }
     }
 }

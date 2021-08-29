@@ -393,10 +393,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modules\AirJump.cs" />
+    <Compile Include="Modules\AutoPickup.cs" />
+    <Compile Include="Modules\Killaura.cs" />
+    <Compile Include="Modules\Nuker.cs" />
     <Compile Include="Modules\TestModule.cs" />
     <Compile Include="Other\Manager.cs" />
     <Compile Include="Other\Module.cs" />
+    <Compile Include="Other\Settings\ModuleSetting.cs" />
+    <Compile Include="Other\Settings\SliderSetting.cs" />
+    <Compile Include="Other\Settings\TextSetting.cs" />
+    <Compile Include="Other\Settings\ToggleSetting.cs" />
     <Compile Include="Utils\DebugConsole.cs" />
     <Compile Include="Loader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
