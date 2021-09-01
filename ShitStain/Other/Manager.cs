@@ -13,14 +13,14 @@ namespace ShitStain.Other
         {
             modules = new List<Module>();
             categories = new List<string>();
-            modules.Add(new TestModule());
+            modules.Add(new LongJump());
 
             foreach (Module module in modules)
             {
                 if (!categories.Contains(module.category))
                     categories.Add(module.category); // gang shit
 
-                if (module.name == "ClickGUI" || module.name == "Arraylist")
+                if (module.name == "ClickGUI" || module.name == "Bhop")
                     module.onEnable();
 
             }

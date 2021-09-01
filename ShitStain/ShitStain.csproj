@@ -394,7 +394,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modules\AutoPickup.cs" />
+    <Compile Include="Modules\LongJump.cs" />
     <Compile Include="Modules\Killaura.cs" />
+    <Compile Include="Modules\NoHunger.cs" />
+    <Compile Include="Modules\NoExhaust.cs" />
     <Compile Include="Modules\Nuker.cs" />
     <Compile Include="Modules\TestModule.cs" />
     <Compile Include="Other\Manager.cs" />
