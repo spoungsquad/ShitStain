@@ -41,7 +41,7 @@ namespace ShitStain.Other
 
         public virtual void forever() { }
 
-        public virtual void registerSetting(ModuleSetting setting)
+        public void registerSetting(ModuleSetting setting)
         {
             settings.Add(setting);
             DebugConsole.Write("Registered setting: " + setting);

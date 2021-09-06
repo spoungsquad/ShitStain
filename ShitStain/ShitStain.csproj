@@ -393,6 +393,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modules\Aimbot.cs" />
     <Compile Include="Modules\AutoPickup.cs" />
     <Compile Include="Modules\LongJump.cs" />
     <Compile Include="Modules\Killaura.cs" />
