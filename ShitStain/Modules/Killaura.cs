@@ -26,9 +26,9 @@ namespace ShitStain.Modules
 
                 Vector3 distanceVector = pos - mobpos;
 
-                if (distanceVector.sqrMagnitude < 10.0f)
+                if (distanceVector.sqrMagnitude < 100.0f)
                 {
-                    ClientSend.PlayerDamageMob(mob.id, 1, 1.0f, 1, pos, 0);
+                    ClientSend.PlayerDamageMob(mob.id, 10, 1.0f, 1, pos, 0);
                 }
             }
         }
