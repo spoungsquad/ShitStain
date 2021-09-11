@@ -24,12 +24,9 @@ namespace ShitStain.Modules
             {
                 Vector3 mobpos = mob.transform.position;
 
-                float dX = pos.x - mobpos.x;
-                float dY = pos.y - mobpos.y;
-                float dZ = pos.z - mobpos.z;
-                float distance = Mathf.Sqrt(dX * dX + dY * dY + dZ * dZ);
+                Vector3 distanceVector = pos - mobpos;
 
-                if (distance < 10.0f)
+                if (distanceVector.sqrMagnitude < 10.0f)
                 {
                     ClientSend.PlayerDamageMob(mob.id, 1, 1.0f, 1, pos, 0);
                 }

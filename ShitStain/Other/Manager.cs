@@ -21,17 +21,30 @@ namespace ShitStain.Other
             modules.Add(new Nuker());
             modules.Add(new TestModule());
             modules.Add(new Aimbot());
+            modules.Add(new TabGUI());
+            modules.Add(new Arraylist());
 
             foreach (Module module in modules)
             {
                 if (!categories.Contains(module.category))
                     categories.Add(module.category); // gang shit
 
-                if (module.name == "ClickGUI" || module.name == "Aimbot")
+                if (module.name == "TabGUI" || module.name == "Arraylist")
                     module.onEnable();
 
             }
             DebugConsole.Write("All modules initialized successfully.");
+        }
+
+        public static Module[] GetModulesFromCategory(string category)
+        {
+            List<Module> temp = new List<Module>();
+            foreach (Module module in modules)
+            {
+                if (module.category == category)
+                    temp.Add(module);
+            }
+            return temp.ToArray();
         }
     }
 }
