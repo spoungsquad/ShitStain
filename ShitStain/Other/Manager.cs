@@ -23,6 +23,9 @@ namespace ShitStain.Other
             modules.Add(new Aimbot());
             modules.Add(new TabGUI());
             modules.Add(new Arraylist());
+            modules.Add(new Stuck());
+            modules.Add(new AutoSprint());
+            modules.Add(new Bhop());
 
             foreach (Module module in modules)
             {

@@ -28,16 +28,16 @@ namespace ShitStain.Modules
 
             enabledModules = SortModules(enabledModules);
 
-            int offset = Screen.height;
+            int offset = 0;
             for (int i = 0; i < enabledModules.Count; i++)
             {
-                offset -= 20;
                 Render.DrawString(new Vector2(Screen.width - Render.GetTextWidth(enabledModules[i].name), offset),
                     enabledModules[i].name, Color.black, false);
 
                 Render.DrawLine(new Vector2(Screen.width - Render.GetTextWidth(enabledModules[i].name) - 3, offset + 20),
                     new Vector2(Screen.width - Render.GetTextWidth(enabledModules[i].name) - 3, offset), Color.black, 3);
 
+                offset += 20;
                 if (i == enabledModules.Count - 1) // last module in the list (the top one) 
                 {
                     Render.DrawLine(new Vector2(Screen.width - Render.GetTextWidth(enabledModules[i].name) - 3, offset),
@@ -48,6 +48,7 @@ namespace ShitStain.Modules
                     Render.DrawLine(new Vector2(Screen.width - Render.GetTextWidth(enabledModules[i].name) - 3, offset),
                         new Vector2(Screen.width - Render.GetTextWidth(enabledModules[i + 1].name) - 0.5f, offset), Color.black, 3);
                 }
+                
             }
         }
 
