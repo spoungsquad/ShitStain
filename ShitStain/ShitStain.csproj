@@ -389,7 +389,7 @@
   <ItemGroup>
     <Compile Include="Modules\Aimbot.cs" />
     <Compile Include="Modules\Arraylist.cs" />
-    <Compile Include="Modules\AutoPickup.cs" />
+    <Compile Include="Modules\InfinitePickup.cs" />
     <Compile Include="Modules\AutoSprint.cs" />
     <Compile Include="Modules\Bhop.cs" />
     <Compile Include="Modules\ChestAura.cs" />
