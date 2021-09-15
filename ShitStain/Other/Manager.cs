@@ -13,7 +13,7 @@ namespace ShitStain.Other
         {
             modules = new List<Module>();
             categories = new List<string>();
-            modules.Add(new InfinitePickup());
+            modules.Add(new InfinitePickup()); // vs code intellisense is horrible and marked this as an error
             modules.Add(new Killaura());
             modules.Add(new LongJump());
             modules.Add(new NoExhaust());
