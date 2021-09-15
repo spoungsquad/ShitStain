@@ -392,6 +392,8 @@
     <Compile Include="Modules\AutoPickup.cs" />
     <Compile Include="Modules\AutoSprint.cs" />
     <Compile Include="Modules\Bhop.cs" />
+    <Compile Include="Modules\ChestAura.cs" />
+    <Compile Include="Modules\Fly.cs" />
     <Compile Include="Modules\LongJump.cs" />
     <Compile Include="Modules\Killaura.cs" />
     <Compile Include="Modules\NoHunger.cs" />

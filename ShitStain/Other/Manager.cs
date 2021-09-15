@@ -26,6 +26,8 @@ namespace ShitStain.Other
             modules.Add(new Stuck());
             modules.Add(new AutoSprint());
             modules.Add(new Bhop());
+            modules.Add(new Fly());
+            modules.Add(new ChestAura());
 
             foreach (Module module in modules)
             {
@@ -36,7 +38,7 @@ namespace ShitStain.Other
                     module.onEnable();
 
             }
-            DebugConsole.Write("All modules initialized successfully.");
+            DebugConsole.Write("All modules initialized successfully. (" + modules.Count + " in total)");
         }
 
         public static Module[] GetModulesFromCategory(string category)
