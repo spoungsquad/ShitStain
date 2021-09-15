@@ -13,8 +13,6 @@ namespace ShitStain
 
             DebugConsole.Write("Injected! Initializing modules...");
             Manager.InitModules();
-
-            StatusMessage.Instance.DisplayMessage("ShitStain is now injected!");
         }
 
         private void Update()
