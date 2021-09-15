@@ -13,7 +13,7 @@ namespace ShitStain.Other
         {
             modules = new List<Module>();
             categories = new List<string>();
-            modules.Add(new AutoPickup());
+            modules.Add(new InfinitePickup());
             modules.Add(new Killaura());
             modules.Add(new LongJump());
             modules.Add(new NoExhaust());

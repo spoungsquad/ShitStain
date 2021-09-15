@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ShitStain.Modules
 {
-    class AutoPickup : Module
+    class InfinitePickup : Module
     {
-        public AutoPickup() : base("AutoPickup", "Player", "Automatically picks up items")
+        public InfinitePickup() : base("InfinitePickup", "Player", "Automatically picks up items")
         {
 
         }

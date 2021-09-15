@@ -23,14 +23,14 @@ namespace ShitStain.Modules
 
             foreach (Mob nextMob in mobList)
             {
-                if ((nextMob.transform.position - pos).sqrMagnitude < (currentMob.transform.position - pos).sqrMagnitude)
+                if ((pos - nextMob.transform.position).sqrMagnitude < (pos - currentMob.transform.position).sqrMagnitude)
                 {
                     currentMob = nextMob;
                 }
             }
 
             Vector3 lookPos = currentMob.transform.position;
-            movement.transform.LookAt(lookPos);
+            Camera.current.transform.LookAt(lookPos);
         }
     }
 }
