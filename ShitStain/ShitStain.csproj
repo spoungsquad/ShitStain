@@ -398,6 +398,7 @@
     <Compile Include="Modules\Killaura.cs" />
     <Compile Include="Modules\NoHunger.cs" />
     <Compile Include="Modules\NoExhaust.cs" />
+    <Compile Include="Modules\Noclip.cs" />
     <Compile Include="Modules\Nuker.cs" />
     <Compile Include="Modules\Stuck.cs" />
     <Compile Include="Modules\TabGUI.cs" />
