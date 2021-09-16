@@ -403,6 +403,7 @@
     <Compile Include="Modules\Stuck.cs" />
     <Compile Include="Modules\TabGUI.cs" />
     <Compile Include="Modules\TestModule.cs" />
+    <Compile Include="Modules\Zoom.cs" />
     <Compile Include="Other\Manager.cs" />
     <Compile Include="Other\Module.cs" />
     <Compile Include="Other\Settings\ModuleSetting.cs" />
