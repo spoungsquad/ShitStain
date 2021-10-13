@@ -389,6 +389,7 @@
   <ItemGroup>
     <Compile Include="Modules\Aimbot.cs" />
     <Compile Include="Modules\Arraylist.cs" />
+    <Compile Include="Modules\Autoclicker.cs" />
     <Compile Include="Modules\InfinitePickup.cs" />
     <Compile Include="Modules\AutoSprint.cs" />
     <Compile Include="Modules\Bhop.cs" />
@@ -403,6 +404,7 @@
     <Compile Include="Modules\Stuck.cs" />
     <Compile Include="Modules\TabGUI.cs" />
     <Compile Include="Modules\TestModule.cs" />
+    <Compile Include="Modules\Triggerbot.cs" />
     <Compile Include="Modules\Zoom.cs" />
     <Compile Include="Other\Manager.cs" />
     <Compile Include="Other\Module.cs" />
@@ -416,6 +418,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="Utils\PrivateAccess.cs" />
     <Compile Include="Utils\Render.cs" />
+    <Compile Include="Utils\Mouse.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DLLs\Assembly-CSharp-firstpass.dll" />
